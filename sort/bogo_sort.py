@@ -1,7 +1,3 @@
-'''
-適当に並べ替えてソートする．結構雑なSort？
-非常に時間のかかるアルゴリズム．ランダムに並び替えるだけなので．．．
-'''
 import random
 from typing import List
 
