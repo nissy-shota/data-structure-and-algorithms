@@ -6,10 +6,11 @@ import random
 from typing import List
 
 def in_order(numbers: List[int]) -> bool:
-    for i in range(len(numbers) - 1):
-        if numbers[i] > numbers[i+1]:
-            return False
-    return True
+    # for i in range(len(numbers) - 1):
+    #     if numbers[i] > numbers[i+1]:
+    #         return False
+    # return True
+    return all(numbers[i] <= numbers[i+1] for i in range(len(numbers)-1))
 
 def bogo_sort(numbers: List[int]) -> List[int]:
     while not in_order(numbers):
