@@ -2,7 +2,10 @@
 Data Structure and Algorithms
 
 ## Bogo Sort
-- 平均的な計算時間はO(n×n!)で,非常に効率の悪いアルゴリズムとして知られている.安定ソートではない   
-- shuffle し続けるだけのsort
+
+- In computer science, bogosort (also known as permutation sort, stupid sort, or slowsort) is a highly inefficient sorting algorithm based on the generate and test paradigm.  
+- The function successively generates permutations of its input until it finds one that is sorted. It is not useful for sorting.  
+- rand.shuffleでランダム生成をし続けるだけ．
+
 # reference
-Udemyのsakaiさんのコースを参考にしています．
+I'm referring to Sakai's lecture on Udemy.
