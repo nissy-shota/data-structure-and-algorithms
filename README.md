@@ -10,6 +10,7 @@ Data Structure and Algorithms
 ## Bubble Sort
 - Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.
 - This simple algorithm performs poorly in real world use
+- 隣接する要素を順番に走査していって，所望の順番と違えば交換するアルゴリズム
 
 # reference
 I'm referring to Sakai's lecture on Udemy.
