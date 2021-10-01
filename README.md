@@ -12,5 +12,9 @@ Data Structure and Algorithms
 - This simple algorithm performs poorly in real world use
 - 隣接する要素を順番に走査していって，所望の順番と違えば交換するアルゴリズム
 
+## Cocktail shaker sort
+- bidirectional bubble sort
+- cocktail shaker sort is an extension of bubble sort 
+
 # reference
 I'm referring to Sakai's lecture on Udemy.
