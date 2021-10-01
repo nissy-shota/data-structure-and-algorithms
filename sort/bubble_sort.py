@@ -14,7 +14,7 @@ def bubble_sort(numbers: List[int]) -> List[int]:
     return numbers
 
 
-if __name__ == '__name__':
+if __name__ == '__main__':
 
     array_length = 10
     nums = [random.randint(0,1000) for i in range(array_length)]
