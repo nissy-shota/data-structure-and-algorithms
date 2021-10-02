@@ -28,6 +28,13 @@ Data Structure and Algorithms
 - Selection sort is noted for its simplicity and has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited.
 - [selection sort](https://en.wikipedia.org/wiki/Selection_sort)
 
+## Gnome Sort
+- The gnome sort is a sorting algorithm which is similar to insertion sort in that it works with one item at a time but gets the item to the proper place by a series of swaps, similar to a bubble sort.   
+- It is conceptually simple, requiring no nested loops.   
+- The average running time is O(n2) but tends towards O(n) if the list is initially almost sorted.
+- [Gnome Sort](https://en.wikipedia.org/wiki/Gnome_sort)
+
+
 
 
 # reference
