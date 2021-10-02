@@ -2,6 +2,7 @@
 bubble sortとの違いは，swapフラグがあるので，フラグがFalseになった時点で，sort自体をやめられるので，多少早い可能性がある点．
 '''
 
+
 import random
 from typing import List
 
@@ -38,7 +39,6 @@ def cocktail_sort(numbers: List[int]) -> List[int]:
 
 
 if __name__ == '__main__':
-
     array_length = 10
     nums = [random.randint(0, 1000) for i in range(array_length)]
 
