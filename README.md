@@ -6,27 +6,30 @@ Data Structure and Algorithms
 - In computer science, bogosort (also known as permutation sort, stupid sort, or slowsort) is a highly inefficient sorting algorithm based on the generate and test paradigm.  
 - The function successively generates permutations of its input until it finds one that is sorted. It is not useful for sorting.  
 - rand.shuffleでランダム生成をし続けるだけ．
+- [Bogo Sort](https://en.wikipedia.org/wiki/Bogosort)
 
 ## Bubble Sort
 - Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.
 - This simple algorithm performs poorly in real world use
 - 隣接する要素を順番に走査していって，所望の順番と違えば交換するアルゴリズム
+- [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
 
 ## Cocktail shaker Sort
 - bidirectional bubble sort
 - cocktail shaker sort is an extension of bubble sort 
+- [Cocktail Sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
 
 ## Comb Sort
 - Comb Sort is mainly an improvement over Bubble Sort.   
 - Bubble sort always compares adjacent values. So all inversions are removed one by one. Comb Sort improves on Bubble Sort by using gap of size more than 1. The gap starts with a large value and shrinks by a factor of 1.3 in every iteration until it reaches the value 1. Thus Comb Sort removes more than one inversion counts with one swap and performs better than Bubble Sort.
-- [comb sort](https://www.geeksforgeeks.org/comb-sort/)
+- [Comb Sort](https://www.geeksforgeeks.org/comb-sort/)
 
 ## Selection Sort
 
 - In computer science, selection sort is an in-place comparison sorting algorithm.  
 - It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort.   
 - Selection sort is noted for its simplicity and has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited.
-- [selection sort](https://en.wikipedia.org/wiki/Selection_sort)
+- [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)
 
 ## Gnome Sort
 - The gnome sort is a sorting algorithm which is similar to insertion sort in that it works with one item at a time but gets the item to the proper place by a series of swaps, similar to a bubble sort.   
