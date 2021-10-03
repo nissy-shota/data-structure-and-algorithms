@@ -48,5 +48,10 @@ Data Structure and Algorithms
   - Stable; i.e., does not change the relative order of elements with equal keys
 - [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
 
+## Bucket Sort
+- Bucket sort, or bin sort, is a sorting algorithm that works by distributing the elements of an array into a number of buckets.  
+- Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm. 
+- [Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort)
+
 # reference
 I'm referring to Sakai's lecture on Udemy.
